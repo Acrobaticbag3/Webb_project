@@ -4,6 +4,7 @@
     display: fixed;
     position: sticky;
     top: 0;
+    padding-top: 0%;
 }
 
 .navbar a {
