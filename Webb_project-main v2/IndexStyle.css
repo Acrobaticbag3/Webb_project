@@ -8,7 +8,6 @@ div {
     max-height: 30vw;
     height: 30vw;
     width: 5000vw;
-    
 }
 
 .Img {
@@ -45,7 +44,7 @@ div {
     width: 300px;
 }
 
-.Container{ 
+.Container { 
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 25% 25% 25% 25%;
