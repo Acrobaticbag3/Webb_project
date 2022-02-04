@@ -1,6 +1,8 @@
 body{
     margin: 0;
+    background-color: white;
 }
+
 div {
     text-align: center;
     position: relative;
@@ -48,10 +50,10 @@ div {
 }
 
 .Container { 
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: 25% 25% 25% 25%;
-    grid-template-areas: 
+    display: grid; /* This makes the html element become a grid*/
+    grid-template-columns: auto; /* Decides the positioning of the vertical lines of the grid */
+    grid-template-rows: 25% 25% 25% 25%; /* Decides the positioning of the horizontal lines of the grid */
+    grid-template-areas: /* This specifies named grid areas, establishing the cells in the grid and assigning them names. */
      "header header header header" 
      "main main main main"  
      "footer footer footer footer" 
@@ -63,7 +65,7 @@ div {
     grid-template-columns: auto auto auto;
     padding: 10px;
 }
-
+/* The container has grid items for each column and row, grid-item allows you too style the grid items how you see fit. one example is a grid item spaning multiple columns/rows. */
 .Grid-Item {
     font-size: 30px;
     text-align: center;
