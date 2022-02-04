@@ -1,4 +1,4 @@
-div {
+div { /* Position values for the divs*/
     text-align: center;
     position: relative;
 }
@@ -19,7 +19,7 @@ div {
     width: 20vw;
 }
 
-.Img img {
+.Img img { /* Animates the Img */
     background: #ccc;
     float: left;
     height: 100px;
@@ -44,7 +44,7 @@ div {
     height: 200px;
     width: 300px;
 }
-
+/* The first grid */
 .Container{ /* Creates sections and devides the dockument into said sections */
     display: grid;
     grid-template-columns: auto;
@@ -72,3 +72,4 @@ div {
     font-size: 15px;
     text-align: center;
 }
+/* The second grid */
